@@ -1,0 +1,1 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Shows</title></head><body><h1>Shows</h1><ul>{% for s in shows %}<li>Show ID: {{ s[0] }} - {{ s[1] }} - {{ s[2] }} - {{ s[3] }} - ₹{{ s[4] }} <a href="/book/{{ s[0] }}">Book</a></li>{% endfor %}</ul></body></html>
